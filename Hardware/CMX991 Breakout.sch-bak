@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:CMX991 Breakout-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -16,88 +17,88 @@ $EndDescr
 $Comp
 L MCU_ST_STM32L4:STM32L431KCUx U?
 U 1 1 5E011472
-P 2725 2275
-F 0 "U?" H 2375 3125 50  0000 C CNN
-F 1 "STM32L431KCUx" V 2725 2325 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 2325 1375 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf" H 2725 2275 50  0001 C CNN
-	1    2725 2275
+P 3375 2275
+F 0 "U?" H 3025 3125 50  0000 C CNN
+F 1 "STM32L431KCUx" V 3375 2325 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 2975 1375 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf" H 3375 2275 50  0001 C CNN
+	1    3375 2275
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E01156D
-P 2625 3325
-F 0 "#PWR?" H 2625 3075 50  0001 C CNN
-F 1 "GND" H 2630 3152 50  0000 C CNN
-F 2 "" H 2625 3325 50  0001 C CNN
-F 3 "" H 2625 3325 50  0001 C CNN
-	1    2625 3325
+P 3275 3325
+F 0 "#PWR?" H 3275 3075 50  0001 C CNN
+F 1 "GND" H 3280 3152 50  0000 C CNN
+F 2 "" H 3275 3325 50  0001 C CNN
+F 3 "" H 3275 3325 50  0001 C CNN
+	1    3275 3325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2625 3275 2625 3300
+	3275 3275 3275 3300
 Wire Wire Line
-	2625 3300 2725 3300
+	3275 3300 3375 3300
 Wire Wire Line
-	2825 3300 2825 3275
-Connection ~ 2625 3300
+	3475 3300 3475 3275
+Connection ~ 3275 3300
 Wire Wire Line
-	2625 3300 2625 3325
+	3275 3300 3275 3325
 Wire Wire Line
-	2725 3275 2725 3300
-Connection ~ 2725 3300
+	3375 3275 3375 3300
+Connection ~ 3375 3300
 Wire Wire Line
-	2725 3300 2825 3300
+	3375 3300 3475 3300
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5E0115DE
-P 2625 1325
-F 0 "#PWR?" H 2625 1175 50  0001 C CNN
-F 1 "+3.3V" H 2640 1498 50  0000 C CNN
-F 2 "" H 2625 1325 50  0001 C CNN
-F 3 "" H 2625 1325 50  0001 C CNN
-	1    2625 1325
+P 3275 1325
+F 0 "#PWR?" H 3275 1175 50  0001 C CNN
+F 1 "+3.3V" H 3290 1498 50  0000 C CNN
+F 2 "" H 3275 1325 50  0001 C CNN
+F 3 "" H 3275 1325 50  0001 C CNN
+	1    3275 1325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2625 1325 2625 1350
+	3275 1325 3275 1350
 Wire Wire Line
-	2625 1350 2725 1350
+	3275 1350 3375 1350
 Wire Wire Line
-	2825 1350 2825 1375
-Connection ~ 2625 1350
+	3475 1350 3475 1375
+Connection ~ 3275 1350
 Wire Wire Line
-	2625 1350 2625 1375
+	3275 1350 3275 1375
 Wire Wire Line
-	2725 1375 2725 1350
-Connection ~ 2725 1350
+	3375 1375 3375 1350
+Connection ~ 3375 1350
 Wire Wire Line
-	2725 1350 2825 1350
+	3375 1350 3475 1350
 $Comp
 L Device:C_Small C?
 U 1 1 5E011909
-P 1875 1675
-F 0 "C?" H 1750 1750 50  0000 L CNN
-F 1 "0.1u" H 1700 1625 50  0000 L CNN
-F 2 "" H 1875 1675 50  0001 C CNN
-F 3 "~" H 1875 1675 50  0001 C CNN
-	1    1875 1675
+P 2525 1675
+F 0 "C?" H 2400 1750 50  0000 L CNN
+F 1 "0.1u" H 2350 1625 50  0000 L CNN
+F 2 "" H 2525 1675 50  0001 C CNN
+F 3 "~" H 2525 1675 50  0001 C CNN
+	1    2525 1675
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E011C13
-P 1875 1775
-F 0 "#PWR?" H 1875 1525 50  0001 C CNN
-F 1 "GND" H 1880 1602 50  0000 C CNN
-F 2 "" H 1875 1775 50  0001 C CNN
-F 3 "" H 1875 1775 50  0001 C CNN
-	1    1875 1775
+P 2525 1775
+F 0 "#PWR?" H 2525 1525 50  0001 C CNN
+F 1 "GND" H 2530 1602 50  0000 C CNN
+F 2 "" H 2525 1775 50  0001 C CNN
+F 3 "" H 2525 1775 50  0001 C CNN
+	1    2525 1775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2225 1575 1875 1575
+	2875 1575 2525 1575
 $Comp
 L power:GND #PWR?
 U 1 1 5E015B67
@@ -218,54 +219,54 @@ F 3 "" H 7025 1450 50  0001 C CNN
 	1    7025 1450
 	1    0    0    -1  
 $EndComp
-Text Label 3300 2275 0    50   ~ 0
+Text Label 3950 2275 0    50   ~ 0
 CMX991_RDATA
-Text Label 3300 2175 0    50   ~ 0
+Text Label 3950 2175 0    50   ~ 0
 CMX991_CDATA
-Text Label 3300 1675 0    50   ~ 0
+Text Label 3950 1675 0    50   ~ 0
 CMX991_SCLK
 Wire Wire Line
-	3300 2175 3225 2175
+	3950 2175 3875 2175
 Wire Wire Line
-	3300 2275 3225 2275
-Text Label 2150 2475 2    50   ~ 0
+	3950 2275 3875 2275
+Text Label 2800 2475 2    50   ~ 0
 CMX991_SS
 Wire Wire Line
-	2225 2475 2150 2475
-Text Label 3300 3075 0    50   ~ 0
+	2875 2475 2800 2475
+Text Label 3950 3075 0    50   ~ 0
 STM32_SS
 Wire Wire Line
-	3300 3075 3225 3075
-Text Label 2150 2875 2    50   ~ 0
+	3950 3075 3875 3075
+Text Label 2800 2875 2    50   ~ 0
 STM32_MOSI
-Text Label 2150 2775 2    50   ~ 0
+Text Label 2800 2775 2    50   ~ 0
 STM32_MISO
-Text Label 2150 2675 2    50   ~ 0
+Text Label 2800 2675 2    50   ~ 0
 STM32_SCLK
 Wire Wire Line
-	2225 2675 2150 2675
+	2875 2675 2800 2675
 Wire Wire Line
-	2150 2775 2225 2775
+	2800 2775 2875 2775
 Wire Wire Line
-	2225 2875 2150 2875
-Text Label 3300 1975 0    50   ~ 0
+	2875 2875 2800 2875
+Text Label 3950 1975 0    50   ~ 0
 TX_I_OUT
-Text Label 3300 2075 0    50   ~ 0
+Text Label 3950 2075 0    50   ~ 0
 TX_Q_OUT
 Wire Wire Line
-	3300 1975 3225 1975
+	3950 1975 3875 1975
 Wire Wire Line
-	3225 2075 3300 2075
-Text Label 3300 1575 0    50   ~ 0
+	3875 2075 3950 2075
+Text Label 3950 1575 0    50   ~ 0
 RX_I_IN
 Wire Wire Line
-	3225 1675 3300 1675
+	3875 1675 3950 1675
 Wire Wire Line
-	3300 1575 3225 1575
-Text Label 3300 1775 0    50   ~ 0
+	3950 1575 3875 1575
+Text Label 3950 1775 0    50   ~ 0
 RX_Q_IN
 Wire Wire Line
-	3300 1775 3225 1775
+	3950 1775 3875 1775
 Text Label 6750 1900 2    50   ~ 0
 CMX991_CDATA
 Text Label 6750 1800 2    50   ~ 0
@@ -282,18 +283,22 @@ Wire Wire Line
 	6825 2000 6750 2000
 Wire Wire Line
 	6750 2100 6825 2100
-Text Label 2150 2575 2    50   ~ 0
+Text Label 2800 2575 2    50   ~ 0
 CMX991_RESET
 Wire Wire Line
-	2225 2575 2150 2575
+	2875 2575 2800 2575
 Text Label 6750 1650 2    50   ~ 0
 CMX991_RESET
 Wire Wire Line
 	6825 1650 6750 1650
-Text Label 9675 2600 0    50   ~ 0
+Text Label 8850 2600 0    50   ~ 0
 RX_I_IN
-Text Label 9675 2900 0    50   ~ 0
-RX_Q_IN
+Text Label 8850 2900 0    50   ~ 0
+RX_I_IN
+Wire Wire Line
+	8850 2600 8775 2600
+Wire Wire Line
+	8850 2900 8775 2900
 Text Notes 3000 6725 0    50   ~ 0
 Decoupling Capacitors:\n10 nF - RF\n100 nF - MCU
 $Comp
@@ -599,12 +604,12 @@ F 3 "" H 2600 4850 50  0001 C CNN
 	1    2600 4850
 	1    0    0    -1  
 $EndComp
-Text Label 3300 2375 0    50   ~ 0
+Text Label 3950 2375 0    50   ~ 0
 RF_SW1
 Wire Wire Line
-	3300 2375 3225 2375
+	3950 2375 3875 2375
 Wire Wire Line
-	3225 2475 3300 2475
+	3875 2475 3950 2475
 Text Label 2050 4550 2    50   ~ 0
 RF_SW1
 $Comp
@@ -675,7 +680,7 @@ Wire Wire Line
 	2900 4450 2950 4450
 Wire Wire Line
 	1525 4350 1600 4350
-Text Label 3300 2475 0    50   ~ 0
+Text Label 3950 2475 0    50   ~ 0
 RF_SW2
 Text Label 2050 4650 2    50   ~ 0
 RF_SW2
@@ -683,247 +688,4 @@ Wire Wire Line
 	2100 4650 2050 4650
 Wire Wire Line
 	2050 4550 2100 4550
-$Comp
-L Device:R R?
-U 1 1 5E223D5C
-P 9075 1950
-F 0 "R?" V 9000 1950 50  0000 C CNN
-F 1 "10k" V 9075 1950 50  0000 C CNN
-F 2 "" V 9005 1950 50  0001 C CNN
-F 3 "~" H 9075 1950 50  0001 C CNN
-	1    9075 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E2244A2
-P 9075 2050
-F 0 "R?" V 9150 2050 50  0000 C CNN
-F 1 "10k" V 9075 2050 50  0000 C CNN
-F 2 "" V 9005 2050 50  0001 C CNN
-F 3 "~" H 9075 2050 50  0001 C CNN
-	1    9075 2050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E23154B
-P 9075 2250
-F 0 "R?" V 9000 2250 50  0000 C CNN
-F 1 "10k" V 9075 2250 50  0000 C CNN
-F 2 "" V 9005 2250 50  0001 C CNN
-F 3 "~" H 9075 2250 50  0001 C CNN
-	1    9075 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E231555
-P 9075 2350
-F 0 "R?" V 9150 2350 50  0000 C CNN
-F 1 "10k" V 9075 2350 50  0000 C CNN
-F 2 "" V 9005 2350 50  0001 C CNN
-F 3 "~" H 9075 2350 50  0001 C CNN
-	1    9075 2350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8925 1950 8775 1950
-Wire Wire Line
-	8925 2050 8775 2050
-Wire Wire Line
-	8925 2250 8775 2250
-Wire Wire Line
-	8775 2350 8925 2350
-Text Label 9225 1950 0    50   ~ 0
-RX_Q_AMP_N
-Text Label 9225 2050 0    50   ~ 0
-RX_Q_AMP_P
-Text Label 5450 3000 2    50   ~ 0
-RX_Q_AMP_N
-Text Label 5450 2900 2    50   ~ 0
-RX_Q_AMP_P
-Text Label 5450 2700 2    50   ~ 0
-RX_I_AMP_N
-Text Label 5450 2600 2    50   ~ 0
-RX_I_AMP_P
-Text Label 9225 2250 0    50   ~ 0
-RX_I_AMP_N
-Text Label 9225 2350 0    50   ~ 0
-RX_I_AMP_P
-$Comp
-L Device:R_Small R?
-U 1 1 5E27C3E5
-P 9075 2725
-F 0 "R?" H 8950 2775 50  0000 L CNN
-F 1 "10k" H 8900 2700 50  0000 L CNN
-F 2 "" H 9075 2725 50  0001 C CNN
-F 3 "~" H 9075 2725 50  0001 C CNN
-	1    9075 2725
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E27D8DB
-P 9200 2725
-F 0 "C?" H 9292 2771 50  0000 L CNN
-F 1 "0.1u" H 9292 2680 50  0000 L CNN
-F 2 "" H 9200 2725 50  0001 C CNN
-F 3 "~" H 9200 2725 50  0001 C CNN
-	1    9200 2725
-	1    0    0    -1  
-$EndComp
-Text Label 9500 2825 0    50   ~ 0
-RX_I_AMP_N
-Wire Wire Line
-	8775 2600 9075 2600
-Wire Wire Line
-	9075 2625 9075 2600
-Connection ~ 9075 2600
-Wire Wire Line
-	9075 2600 9200 2600
-Wire Wire Line
-	9200 2625 9200 2600
-Connection ~ 9200 2600
-Wire Wire Line
-	9200 2600 9675 2600
-Wire Wire Line
-	9075 2825 9200 2825
-Connection ~ 9200 2825
-Wire Wire Line
-	9200 2825 9500 2825
-$Comp
-L Device:R_Small R?
-U 1 1 5E29B341
-P 9075 3025
-F 0 "R?" H 8950 3075 50  0000 L CNN
-F 1 "10k" H 8900 3000 50  0000 L CNN
-F 2 "" H 9075 3025 50  0001 C CNN
-F 3 "~" H 9075 3025 50  0001 C CNN
-	1    9075 3025
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E29B34B
-P 9200 3025
-F 0 "C?" H 9292 3071 50  0000 L CNN
-F 1 "0.1u" H 9292 2980 50  0000 L CNN
-F 2 "" H 9200 3025 50  0001 C CNN
-F 3 "~" H 9200 3025 50  0001 C CNN
-	1    9200 3025
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9075 3125 9200 3125
-Connection ~ 9200 3125
-Wire Wire Line
-	9200 3125 9500 3125
-Wire Wire Line
-	8775 2900 9075 2900
-Wire Wire Line
-	9075 2925 9075 2900
-Connection ~ 9075 2900
-Wire Wire Line
-	9075 2900 9200 2900
-Wire Wire Line
-	9200 2925 9200 2900
-Connection ~ 9200 2900
-Wire Wire Line
-	9200 2900 9675 2900
-Text Label 9500 3125 0    50   ~ 0
-RX_Q_AMP_N
-$Comp
-L Device:C_Small C?
-U 1 1 5E2BF3E8
-P 5675 3225
-F 0 "C?" H 5767 3271 50  0000 L CNN
-F 1 "0.1u" H 5767 3180 50  0000 L CNN
-F 2 "" H 5675 3225 50  0001 C CNN
-F 3 "~" H 5675 3225 50  0001 C CNN
-	1    5675 3225
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E2C0428
-P 5525 3225
-F 0 "C?" H 5350 3300 50  0000 L CNN
-F 1 "0.1u" H 5275 3175 50  0000 L CNN
-F 2 "" H 5525 3225 50  0001 C CNN
-F 3 "~" H 5525 3225 50  0001 C CNN
-	1    5525 3225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 2600 5675 2600
-Wire Wire Line
-	5450 2900 5525 2900
-Wire Wire Line
-	5525 3125 5525 2900
-Connection ~ 5525 2900
-Wire Wire Line
-	5675 3125 5675 2600
-Connection ~ 5675 2600
-$Comp
-L power:GND #PWR?
-U 1 1 5E2EE92D
-P 5600 3375
-F 0 "#PWR?" H 5600 3125 50  0001 C CNN
-F 1 "GND" H 5605 3202 50  0000 C CNN
-F 2 "" H 5600 3375 50  0001 C CNN
-F 3 "" H 5600 3375 50  0001 C CNN
-	1    5600 3375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5525 3325 5525 3375
-Wire Wire Line
-	5525 3375 5600 3375
-Wire Wire Line
-	5675 3325 5675 3375
-Wire Wire Line
-	5675 3375 5600 3375
-Connection ~ 5600 3375
-Wire Wire Line
-	5675 2600 6825 2600
-Wire Wire Line
-	5450 2700 6825 2700
-Wire Wire Line
-	5525 2900 6825 2900
-Wire Wire Line
-	5450 3000 6825 3000
-$Comp
-L Device:C_Small C?
-U 1 1 5E3192A8
-P 6025 3500
-F 0 "C?" H 5850 3575 50  0000 L CNN
-F 1 "0.1u" H 5775 3450 50  0000 L CNN
-F 2 "" H 6025 3500 50  0001 C CNN
-F 3 "~" H 6025 3500 50  0001 C CNN
-	1    6025 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E319B3B
-P 6025 3600
-F 0 "#PWR?" H 6025 3350 50  0001 C CNN
-F 1 "GND" H 6030 3427 50  0000 C CNN
-F 2 "" H 6025 3600 50  0001 C CNN
-F 3 "" H 6025 3600 50  0001 C CNN
-	1    6025 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6825 3400 6025 3400
-Text Label 9000 3250 0    50   ~ 0
-SIG_LVL_OUT
-Wire Wire Line
-	9000 3250 8775 3250
-Text Label 3300 1875 0    50   ~ 0
-SIG_LVL_OUT
-Wire Wire Line
-	3300 1875 3225 1875
-NoConn ~ 6825 3300
 $EndSCHEMATC
