@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name CMX991)(type Legacy)(uri "/home/joyce/Desktop/KiCAD Projects/CMX991 Breakout/CMX991.lib")(options "")(descr ""))
+  (lib (name CMX991-Breakout-rescue)(type Legacy)(uri "${KIPRJMOD}/CMX991 Breakout-rescue.lib")(options "")(descr ""))
+)
